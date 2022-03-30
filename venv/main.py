@@ -30,7 +30,6 @@ bitcoin.drop("unix", axis=1, inplace=True)
 
 bitcoin.date = pd.to_datetime(bitcoin.date)
 
-
 bitcoin.head()
 
 bitcoin.describe()
